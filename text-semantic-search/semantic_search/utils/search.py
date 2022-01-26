@@ -24,8 +24,8 @@ from httplib2 import Http
 from oauth2client.client import GoogleCredentials
 
 # Configurable parameters
-GCS_BUCKET = ''
-KIND = 'wikipedia'
+GCS_BUCKET = 'gs://test_answers_api'
+KIND = 'onlytext'
 GCS_INDEX_LOCATION = '{}/index/embeds.index'.format(KIND)
 INDEX_FILE = 'embeds.index'
 CHUNKSIZE = 16 * 1024 * 1024

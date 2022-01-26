@@ -20,7 +20,7 @@ BUCKET="gs://test_answers_api"
 REGION="asia-east1"
 
 # Datastore parameters
-KIND="wikipedia"
+KIND="onlytext"
 
 # Cloud ML Engine parameters
 TIER="CUSTOM"

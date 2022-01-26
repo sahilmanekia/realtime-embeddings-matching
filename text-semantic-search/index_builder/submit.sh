@@ -16,7 +16,7 @@
 
 # Configurable parameters
 PROJECT="newagent-lqklvs"
-BUCKET="gs://test_answers_api"
+BUCKET="test_answers_api"
 REGION="asia-east1"
 
 # Datastore parameters

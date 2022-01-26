@@ -37,7 +37,7 @@ def get_source_query(limit=1000000):
         SELECT
           DISTINCT LOWER(title) text
         FROM
-          `bigquery-samples.wikipedia_benchmark.Wiki100B`
+          `newagent-lqklvs.questions.q_responses`
         WHERE
           ARRAY_LENGTH(split(title,' ')) >= 5
         AND

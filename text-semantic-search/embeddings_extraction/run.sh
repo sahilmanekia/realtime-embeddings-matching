@@ -23,7 +23,7 @@ REGION="asia-east1"
 LIMIT=1000000
 
 # Datastore parameters
-KIND="wikipedia"
+KIND="onlytext"
 
 [[ -z "${PROJECT}" ]] && echo "PROJECT not set" && exit 1
 [[ -z "${BUCKET}" ]] && echo "BUCKET not set" && exit 1

@@ -15,7 +15,7 @@
 # limitations under the License.
 
 # Configurable parameter
-PROJECT=""
+PROJECT="newagent-lqklvs"
 
 [[ -z "${PROJECT}" ]] && echo "PROJECT not set" && exit 1
 

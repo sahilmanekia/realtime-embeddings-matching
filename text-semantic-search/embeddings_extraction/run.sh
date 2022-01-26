@@ -15,9 +15,9 @@
 # limitations under the License.
 
 # Configurable parameters
-PROJECT=""
-BUCKET=""
-REGION=""
+PROJECT="newagent-lqklvs"
+BUCKET="gs://test_answers_api"
+REGION="asia-east1"
 
 # BigQuery parameters
 LIMIT=1000000

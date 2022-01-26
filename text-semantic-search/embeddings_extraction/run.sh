@@ -16,7 +16,7 @@
 
 # Configurable parameters
 PROJECT="newagent-lqklvs"
-BUCKET="gs://test_answers_api"
+BUCKET="test_answers_api"
 REGION="asia-east1"
 
 # BigQuery parameters
@@ -32,10 +32,10 @@ KIND="onlytext"
 [[ -z "${KIND}" ]] && echo "KIND not set" && exit 1
 
 # Directory for output data files
-OUTPUT_PREFIX="${BUCKET}/${KIND}/embeddings/embed"
+OUTPUT_PREFIX="gs://${BUCKET}/${KIND}/embeddings/embed"
 
 # Working directories for Dataflow
-DF_JOB_DIR="${BUCKET}/${KIND}/dataflow"
+DF_JOB_DIR="gs://${BUCKET}/${KIND}/dataflow"
 STAGING_LOCATION="${DF_JOB_DIR}/staging"
 TEMP_LOCATION="${DF_JOB_DIR}/temp"
 
